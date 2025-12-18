@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Diri | Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+    </div>
+
+    <div class="container">
+        <header class="profile-header">
+            <div class="profile-image-container">
+                <img src="profile_placeholder.png" alt="Foto Profil" class="profile-image" id="profileImage">
+            </div>
+            <h1 class="name">Fara ayu riandani</h1>
+            <p class="status-badge">Mahasiswa</p>
+        </header>
+
+        <main>
+            <section class="card glass-effect info-section">
+                <h2><span class="icon">👤</span> Informasi Pribadi</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="label">Tanggal Lahir</span>
+                        <span class="value" id="birthDate">2006-02-16</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Usia</span>
+                        <span class="value" id="ageDisplay">19</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Agama</span>
+                        <span class="value">Islam</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Alamat</span>
+                        <span class="value">kebun baru,kec.selong</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Tinggi Badan</span>
+                        <span class="value">148 cm</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Berat Badan</span>
+                        <span class="value">41 kg</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card glass-effect education-section">
+                <h2><span class="icon">🎓</span> Jejak Pendidikan</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Universitas [HAMZANWADI]</h3>
+                            <p class="period">2024 - Sekarang</p>
+                            <p class="description">Jurusan sistem informasi</p>
+                            <p class="nim">NIM: 240601008</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>SMK N [2 selong]</h3>
+                            <p class="period">2021 - 2023</p>
+                            <p class="description">Jurusan Perhotelan</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© <span id="year"></span> Data Diri. Designed with code.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
